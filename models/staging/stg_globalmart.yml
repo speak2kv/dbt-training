@@ -1,0 +1,9 @@
+version: 2
+models:
+  - name: stg_orders
+    description: contain single record for single order
+    columns:
+      - name: orderid
+        description: primary key fo the table stg_orders
+      - name: shipmode
+        description: '{{ doc("shipmode") }}'
